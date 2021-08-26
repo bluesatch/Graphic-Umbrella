@@ -1,0 +1,27 @@
+/* Icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-recycle {
+    width: 1.001953125em;
+}
+
+
+
+.carousel .carousel-inner {
+    height: 600px;
+}
+
+.carousel-img {
+    height: 600px;
+}
+
+.card {
+    max-width: 600px;
+}
