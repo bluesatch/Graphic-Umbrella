@@ -1,4 +1,4 @@
-/* Icons */
+/* Cannot figure out why I have some scroll to the left and right. Tried deleting things one by one in the inspect tool and it was always there. */
 
 .icon {
     display: inline-block;
@@ -17,7 +17,7 @@
 }
 
 .sub-header {
-    /* margin-left: 115px;  This was creating dead space when at 576px screen width */
+    /* margin-left: 115px; */
     margin-right: -115px;
     padding-bottom: 15px;
     text-transform: uppercase;
@@ -252,7 +252,7 @@
         font-size: 26px;
     }
     .logo-idea {
-        font-size: 22px;
+        font-size: 17px;
     }
     .top-nav {
         margin-left: 10px;
@@ -294,7 +294,40 @@
         justify-content: center;
     }
     .main-footer {
-        display: inline-block;
-        justify-content: center;
+        text-align: center;
+    }
+    .main-footer h4 {
+        margin-bottom: -15px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-box {
+        padding: 0;
+    }
+    .logo-img {
+        height: 55px;
+    }
+    .logo-name {
+        font-size: 36px;
+    }
+    .logo-idea {
+        font-size: 23px;
+    }
+    .top-nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: baseline;
+    }
+    .top-nav-item {
+        margin: 0;
+    }
+    .archives-list {
+        margin-top: 15px;
+    }
+    .main-footer {
+        text-align: center;
     }
 }
