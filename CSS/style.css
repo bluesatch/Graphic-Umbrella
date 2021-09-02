@@ -1,5 +1,10 @@
 /* Cannot figure out why I have some scroll to the left and right. Tried deleting things one by one in the inspect tool and it was always there. */
 
+/* most of the times the left/right scroll is caused by padding or margin to the left and/or right of containers. Sometimes it may be an element 
+that is hanging out beyond the screen. I see a lot of margin-left/right as well as padding-left/right in your css
+
+*/
+
 .icon {
     display: inline-block;
     width: 1em;
