@@ -22,6 +22,7 @@
                     </div>
                 </div>
                 <nav class="top-nav d-sm-flex justify-content-sm-center justify-content-md-end">
+                    <!--using the .nav class on the nav and .nav-item on the links would accomplish what you're trying to do with all the bootstrap classes you added -->
                     <a href="#link" class=" top-nav-item text-decoration-none">home</a>
                     <a href="#link" class=" top-nav-item text-decoration-none">news</a>
                     <a href="#link" class=" top-nav-item text-decoration-none">products</a>
@@ -71,6 +72,7 @@
         </div>
         <div class="container-fluid section1">
             <div class="row">
+                <!-- use .cols instead of the nav tag and those classes; .col-md-3 should work; you can also combine .col-md-3 with .col-sm-6-->
                 <nav class="nav main-nav d-flex justify-content-center text-center">
                     <figure class="col-2 main-nav-item recycle">
                         <svg class="icon icon-recycle section1-icon"><use xlink:href="#icon-recycle"></use></svg>
@@ -99,6 +101,7 @@
             <div class="row">
                 <h3 class="sub-header text-md-left recent">recent from <span class="green">portfolio</span></h3>
             </div>
+            <!--maybe use the .card-group class instead of .card-box; it has built in properties --> 
             <div class="card-box d-inline-flex flex-wrap justify-content-evenly">
                 <div class="card mb-3 card1">
                     <div class="row">
@@ -164,8 +167,10 @@
         </div>
         <div class="container section3">
             <div class="row">
+                <!-- this is probably an h2 instead of an h3-->
                 <h3 class="sub-header advertisers">our major <span class="green">advertisers</span></h3>
             </div>
+            <!-- could also use an ul>li and apply the .nav class to the ul; but this works-->
             <nav class="nav advertisers-nav text-center">
                 <a href="#link" class="col-sm-4 col-md-4 col-lg-2 watermelocious">
                     <img src="media/watermelocious.jpg" alt="advertiser link">
